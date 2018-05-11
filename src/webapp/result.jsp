@@ -8,22 +8,6 @@
 </head>
 <body>
 
-<h1>${message} парсер</h1>
-
-<a href="index.jsp">Back to main page</a>
-<hr>
-
-<c:forEach var="car" items="${result}">
-
-<table border="1">
-    <tr>
-        <th>Поле</th>
-        <th>Значение</th>
-    </tr>
-
-</table>
-
-</c:forEach>
 
 </body>
 </html>
